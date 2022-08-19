@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="gamescreen">
+    <div class="hud">
+        <button type = "button" id="start-btn" class="start-button">Start Quiz!</button>
+            <span class="timercont" id="timecont"><span class="text">time:</span><span id = "time">--</span></span>
+        </div>
+        <div class="feedbackContainer" id ="feedback"></div>
+        <div class="quizContainer" id="quiz">
+        </div>
+    </div>
+        <div class = "hide appear" id="gameover-screen">
+            <p>Game over!<br>Enter your initials here!</p>
+            <input type="text" id="userId" max="10">
+            <button id ="record-btn">SAVE</button>
+        </div>
+        <div id = "final-score"></div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
